@@ -181,7 +181,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0px 100px;
-  margin-top: 5%;
 }
 
 .nav-links {
@@ -909,7 +908,7 @@ textarea {
 
 .section-title {
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 400;
   color: #2b2d42;
   margin-bottom: 70px;
 }
@@ -1015,7 +1014,7 @@ textarea {
 .section-title-blog h1 {
   font-size: 58px;
   color: #222;
-  font-weight: 600;
+  font-weight: 400;
 }
 .blog-section {
   max-width: 1400px;
