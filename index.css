@@ -135,7 +135,6 @@ body {
 }
 
 .hero-content {
-  z-index: 4;
   text-align: center;
 }
 
@@ -146,7 +145,7 @@ body {
   letter-spacing: 13px;
   text-transform: uppercase;
   margin-bottom: 32px;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 .hero-content h1 {
