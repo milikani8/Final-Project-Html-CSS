@@ -152,7 +152,7 @@ body {
   font-weight: 200;
   line-height: 1.27;
   letter-spacing: 0;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: white;
   font-size: 60px;
 }
@@ -460,7 +460,7 @@ textarea {
 /* LEFT TABS */
 
 .left-tabs {
-  width: 340px;
+  width: 300px;
   border-top: 1px solid #ddd;
   position: relative;
 }
@@ -530,7 +530,7 @@ textarea {
   position: absolute;
   left: 420px;
   top: 0;
-  width: 720px;
+  width: 400px;
   opacity: 0;
   visibility: hidden;
   transform: translateY(20px);
@@ -607,7 +607,7 @@ textarea {
 .right-image {
   width: 400px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .right-image img {
