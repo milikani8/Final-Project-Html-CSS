@@ -194,7 +194,7 @@ body {
   display: block;
   text-decoration: none;
   color: #111;
-  padding: 55px 16px;
+  padding: 20px 16px;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -311,10 +311,10 @@ h1 {
 .quote-heading {
   background-color: #d4b02a;
   color: white;
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 700;
 
-  padding: 40px 110px;
+  padding: 20px 110px;
   margin-right: 20px;
 }
 
