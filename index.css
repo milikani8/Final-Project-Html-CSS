@@ -181,7 +181,8 @@ body {
   background: white;
   display: flex;
   justify-content: space-between;
-  padding: 0px 140px;
+  padding: 0px 100px;
+  margin-top: 5%;
 }
 
 .nav-links {
