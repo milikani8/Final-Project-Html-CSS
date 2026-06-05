@@ -530,7 +530,7 @@ textarea {
   position: absolute;
   left: 420px;
   top: 0;
-  width: 420px;
+  width: 500px;
   opacity: 0;
   visibility: hidden;
   transform: translateY(20px);
