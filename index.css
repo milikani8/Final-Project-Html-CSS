@@ -154,7 +154,28 @@ body {
   letter-spacing: 0;
   margin-bottom: 20px;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
+  animation: slideup 8s linear infinite;
+}
+
+@keyframes slideup {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  20% {
+    opacity: 1;
+    transform: translatey(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translatey(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translatey(0);
+  }
 }
 
 .buttonmain1 {

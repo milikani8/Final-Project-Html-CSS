@@ -87,6 +87,27 @@ body {
   margin-bottom: 120px;
   margin-left: 17%;
   color: #fff;
+  animation: slideup 10s linear infinite;
+}
+
+@keyframes slideup {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  20% {
+    opacity: 1;
+    transform: translatey(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translatey(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translatey(0);
+  }
 }
 
 .breadcrumb {
