@@ -1064,6 +1064,18 @@ textarea {
 
 .card-blog {
   position: relative;
+  animation: comeUp 2s ease forwards;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+@keyframes comeUp {
+  from {
+    transform: translateY(-100vw);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 
 .card-blog img {
@@ -1081,18 +1093,6 @@ textarea {
   margin-left: auto;
   margin-bottom: 0px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-  animation: comeUp 4s ease forwards;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-
-@keyframes comeUp {
-  from {
-    transform: translateY(-100px);
-  }
-  to {
-    transform: translateY(0);
-  }
 }
 
 .author-blog {
